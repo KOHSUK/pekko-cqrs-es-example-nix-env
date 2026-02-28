@@ -1,8 +1,8 @@
 # pekko-cqrs-es-example-nix-env
 
-[j5ik2o/pekko-cqrs-es-example](https://github.com/j5ik2o/pekko-cqrs-es-example) をローカルで動かすための Nix flake + direnv 設定です。
+[j5ik2o/pekko-cqrs-es-example](https://github.com/j5ik2o/pekko-cqrs-es-example) をローカル環境で動かすための Nix flake + direnv 設定リポジトリです。
 
-元リポジトリは [こちらの記事](https://tech-book.precena.co.jp/entry/pekko-cqrs-es-guide) で解説されている Apache Pekko を使った CQRS/ES のサンプル実装です。
+サンプル実装本体は [j5ik2o](https://github.com/j5ik2o) 氏が公開しており、[こちらの記事](https://tech-book.precena.co.jp/entry/pekko-cqrs-es-guide) で Apache Pekko を使った CQRS/ES の実装が解説されています。本リポジトリはその環境構築のみを担います。
 
 ## 提供する開発環境
 
@@ -31,7 +31,7 @@
 # 1. この設定リポジトリをクローン（任意の場所）
 git clone https://github.com/KOHSUK/pekko-cqrs-es-example-nix-env.git
 
-# 2. 対象リポジトリをクローン
+# 2. サンプル実装本体をクローン
 git clone https://github.com/j5ik2o/pekko-cqrs-es-example.git
 cd pekko-cqrs-es-example
 
@@ -56,5 +56,5 @@ aws --version
 
 ## 関連リンク
 
-- [j5ik2o/pekko-cqrs-es-example](https://github.com/j5ik2o/pekko-cqrs-es-example) — 対象リポジトリ
+- [j5ik2o/pekko-cqrs-es-example](https://github.com/j5ik2o/pekko-cqrs-es-example) — サンプル実装本体
 - [解説記事](https://tech-book.precena.co.jp/entry/pekko-cqrs-es-guide) — pekko-cqrs-es-guide
